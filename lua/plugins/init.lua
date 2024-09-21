@@ -18,6 +18,11 @@ local default_plugins = {
     branch = "v2.0",
     lazy = false,
   },
+{
+  'mrcjkb/rustaceanvim',
+  version = '^5', -- Recommended
+  lazy = false, -- This plugin is already lazy
+},
   {
   "ThePrimeagen/harpoon",
   branch = "harpoon2",
